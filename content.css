@@ -1,0 +1,157 @@
+body{
+    background-color: black;
+}
+
+.content{
+    background-color: #4cd137;
+}
+
+.topicos{
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.noticias{
+    background-color: #4cd137;
+    padding-top: 2.5rem;
+}
+
+#noticias-video{
+    padding-top: 3rem;
+    background-color: black;
+}
+
+#noticias-audio{
+    padding-top: 2.5rem;
+    background-color: black;
+    padding-bottom: 3rem;
+}
+
+.noticia{
+    background-color: white;
+    padding: 2%;
+    margin: 2rem;
+    border: solid;
+    border-radius: 12px;
+    width: 20rem;
+}
+
+.img-noticia{
+    height: 15rem;
+}
+
+.desc-noticia{
+    padding-top: 1rem;
+}
+
+h1{
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    color: #4cd137;
+}
+
+img, iframe{
+    width: 100%;
+    height: 100%;
+}
+
+b{
+    font-size: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.a-noticias{
+    color: black;
+    text-decoration: none;
+}
+
+.a-noticias:hover{
+    color: #4cd137;
+}
+
+
+
+#div-sobre{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#p-sobre-mim{
+    padding: 1rem;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+#div-para-saber-mais{
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+#img-linkedin{
+    padding-top: 2rem;
+    width: 12%;
+    height: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+#ul-saiba-mais{
+    padding-top: 2rem;
+}
+
+#ul-saiba-mais li{
+    display: block;
+    text-align: center;
+    padding: 1rem;
+}
+
+.div-border{
+    margin-right: auto;
+    margin-left: auto;
+    border: solid;
+    border-radius: 8px;
+    border-color: black;
+    width: 25%;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
+}
+
+#ul-saiba-mais li a{
+    text-decoration: none;
+    font-size: 19px;
+}
+
+
+
+
+
+
+#div-iframe{
+    height: 500px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 3rem;
+    margin-bottom: 8%;
+}
+
+#iframe-contato{
+    margin-top: 1rem;
+}
